@@ -1,89 +1,26 @@
-<!DOCTYPE html>
-<html>
-  <title>Yahoo Tube</title>
-  <link rel="shortcut icon" href="../play_button__1__hbu_icon.ico" />
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box;}
-
-body { 
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
-}
-
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.header a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-.header-right {
-  float: right;
-}
-
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha38" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML5 Custom Video Player</title>
 </head>
 <body>
-
-<div class="header">
-  <a href="#default" class="logo">Yahoo Tube</a>
-  <div class="header-right">
-    <a class="active" href="#home">Home</a>
-    <a href="exclusive">Exclusive things</a>
-  </div>
+    <div class="container">
+        <div class="c-video">
+<video class="video" src="https://www.w3schools.com/html/mov_bbb.mp4" ></video>
+<div class="controls">
+    <div class="orange-bar">
+        <div class="orange-juice">
+            <div class="buttons">
+                <button id="play-pause" class="play-pause"></button>
+            </div>
+        </div>
+    </div>
 </div>
-
-<div style="padding-left:20px">
-  <h1>Recommended</h1>
-  <h2>Songs:</h2>
-  <h2>Justin Bieber-Yummy(Official Music Video)</h2>
-  <a href="watch/yummy.html?utm_source=home&trending=true"><img alt="Justin Bieber-Yummy(Official Music Video)" src="https://i.ytimg.com/vi/8EJ3zbKTWQ8/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD3ZjmkhbXalUQUwMF3DdGEcl9gQg" height="30%" width="16%"></img></a></div>
-  <h2>Technology:</h2>
-  <a href="watch/phones?utm_source=home&category=technology"><img alt="Smarthphones are evolving." src="https://i.ytimg.com/vi/s-x-Bo8HVaA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCZ_MZEb8cktpBaqSOkW2MQTxX36g" height="30%" width="16%"></img></a>
-<h2>Gaming:</h2>
-<a href="watch/vehicle?utm_source=home&category=gaming"><img alt="✔️ Farming Simulator in MINECRAFT VR!" src="https://i.ytimg.com/vi/_RWrdkquUaI/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDtuTf4b3dJeYnbd1s4rWrJio_UGw" height="30% width="16%"></img></a>
-<center>
-  <footer>
-    <h4>&copy; 2020 TPS&trade; Enterprises Inc. All Rights Reserved. </h4>
-  </footer>
-  </center>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-</html>
