@@ -19,6 +19,9 @@ header {
     overflow:auto;
     padding:0px 250px 0px;
 }
+#small {
+   visibility: hidden;
+}
 @media(max-width:500px) {
 body {
     background:black;
@@ -345,4 +348,38 @@ header {
                                                             overflow:auto;
                                                             padding:0px 250px 0px;
                                                         }
+                                                        }
+                                                        @media(max-width:200px) {
+                                                            body {
+                                                                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                                                background:whitesmoke;
+                                                                opacity:-9.9;
+                                                            }
+                                                            header {
+                                                                background:whitesmoke;
+                                                                overflow:auto;
+                                                                opacity:-9.9;
+                                                            }
+                                                            #divhead {
+                                                                background:whitesmoke;
+                                                                height:12.5px;
+                                                                font-size:12px;
+                                                                opacity:-9.9;
+                                                            }
+                                                            #divider {
+                                                                opacity:-9.9;
+                                                                cursor:default;
+                                                            }
+                                                            #homecontainer {
+                                                                overflow:auto;
+                                                                padding:0px 250px 0px;
+                                                                opacity:-9.9;
+                                                            }
+                                                            #small {
+                                                                background:white;
+                                                                color:black;
+                                                                visibility: visible;
+                                                                text-align:center;
+                                                                font-size:10px;
+                                                            }
                                                         }
