@@ -40,363 +40,57 @@ header {
     cursor:context-menu;
 }
 @media(max-width:500px) {
-body {
-    background:black;
-    color:white;
-}
-img {
-    height:60px;
-    width:60px;
-}
-header {
-    background:black;
-}
-#divhead {
-    opacity:-9.0;
-}
-#homecontainer {
-    text-align:left;
-    padding:0px 0px 0px;
-}
-}
-@media(max-width:550px) {
     body {
         background:black;
-        color:white;
     }
-    img {
-        height:60px;
-        width:60px;
+    #icon {
+        width:20%;
+        height:20%;
     }
     header {
         background:black;
+        color:white;
+    }
+    #menu {
+        width:39.8%;
+        height:350px;
+        overflow:auto;
+        background:black;
+        color:white;
+    }
+    #menu li {
+        padding:20px 0px 0px;
+    }
+    #menu i {
+        color:#fff;
     }
     #divhead {
-        opacity:-9.0;
+        background:black;
     }
-    #homecontainer {
-        text-align:left;
-        padding:0px 0px 0px;
+
+}
+@media(max-width:555px) {
+    #icon {
+        width:12%;
+        height:12%;
     }
+    body {
+        background:black;
     }
-    @media(max-width:600px) {
-        body {
-            background:black;
-            color:white;
-        }
-        img {
-            height:60px;
-            width:60px;
-        }
-        header {
-            background:black;
-        }
-        #divhead {
-            opacity:-9.0;
-        }
-        #homecontainer {
-            text-align:left;
-            padding:0px 0px 0px;
-        }
-        }
-        @media(max-width:700px) {
-            body {
-                background:black;
-                color:white;
-            }
-            img {
-                height:60px;
-                width:60px;
-            }
-            header {
-                background:black;
-            }
-            #divhead {
-                opacity:-9.0;
-            }
-            #homecontainer {
-                text-align:left;
-                padding:0px 0px 0px;
-            }
-            }
-            @media(max-width:800px) {
-                body {
-                    background:black;
-                    color:white;
-                }
-                img {
-                    height:60px;
-                    width:60px;
-                }
-                header {
-                    background:black;
-                }
-                #divhead {
-                    opacity:-9.0;
-                }
-                #homecontainer {
-                    text-align:left;
-                    padding:0px 0px 0px;
-                }
-                }
-                @media(max-width:900px) {
-                    body {
-                        background:black;
-                        color:white;
-                    }
-                    img {
-                        height:60px;
-                        width:60px;
-                    }
-                    header {
-                        background:black;
-                    }
-                    #divhead {
-                        opacity:-9.0;
-                    }
-                    #homecontainer {
-                        text-align:left;
-                        padding:0px 0px 0px;
-                    }
-                    }
-                    @media(max-width:950px) {
-                        body {
-                            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                            background:whitesmoke;
-                        }
-                        header {
-                            background:whitesmoke;
-                            overflow:auto;
-                        }
-                        #divhead {
-                            background:whitesmoke;
-                            height:12.5px;
-                            font-size:12px;
-                        }
-                        #divider {
-                            opacity:-9.6;
-                            cursor:default;
-                        }
-                        #homecontainer {
-                            overflow:auto;
-                            padding:0px 250px 0px;
-                        }
-                        }
-                        @media(max-width:1000px) {
-                            body {
-                                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                background:whitesmoke;
-                            }
-                            header {
-                                background:whitesmoke;
-                                overflow:auto;
-                            }
-                            #divhead {
-                                background:whitesmoke;
-                                height:12.5px;
-                                font-size:12px;
-                            }
-                            #divider {
-                                opacity:-9.6;
-                                cursor:default;
-                            }
-                            #homecontainer {
-                                overflow:auto;
-                                padding:0px 250px 0px;
-                            }
-                            }
-                            @media(max-width:1100px) {
-                                body {
-                                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                    background:whitesmoke;
-                                }
-                                header {
-                                    background:whitesmoke;
-                                    overflow:auto;
-                                }
-                                #divhead {
-                                    background:whitesmoke;
-                                    height:12.5px;
-                                    font-size:12px;
-                                }
-                                #divider {
-                                    opacity:-9.6;
-                                    cursor:default;
-                                }
-                                #homecontainer {
-                                    overflow:auto;
-                                    padding:0px 250px 0px;
-                                }
-                                }
-                                @media(max-width:1200px) {
-                                    body {
-                                        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                        background:whitesmoke;
-                                    }
-                                    header {
-                                        background:whitesmoke;
-                                        overflow:auto;
-                                    }
-                                    #divhead {
-                                        background:whitesmoke;
-                                        height:12.5px;
-                                        font-size:12px;
-                                    }
-                                    #divider {
-                                        opacity:-9.6;
-                                        cursor:default;
-                                    }
-                                    #homecontainer {
-                                        overflow:auto;
-                                        padding:0px 250px 0px;
-                                    }
-                                    }
-                                    @media(max-width:1300px) {
-                                        body {
-                                            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                            background:whitesmoke;
-                                        }
-                                        header {
-                                            background:whitesmoke;
-                                            overflow:auto;
-                                        }
-                                        #divhead {
-                                            background:whitesmoke;
-                                            height:12.5px;
-                                            font-size:12px;
-                                        }
-                                        #divider {
-                                            opacity:-9.6;
-                                            cursor:default;
-                                        }
-                                        #homecontainer {
-                                            overflow:auto;
-                                            padding:0px 250px 0px;
-                                        }
-                                        }
-                                        @media(max-width:1400px) {
-                                            body {
-                                                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                                background:whitesmoke;
-                                            }
-                                            header {
-                                                background:whitesmoke;
-                                                overflow:auto;
-                                            }
-                                            #divhead {
-                                                background:whitesmoke;
-                                                height:12.5px;
-                                                font-size:12px;
-                                            }
-                                            #divider {
-                                                opacity:-9.6;
-                                                cursor:default;
-                                            }
-                                            #homecontainer {
-                                                overflow:auto;
-                                                padding:0px 250px 0px;
-                                            }
-                                            }
-                                            @media(max-width:1440px) {
-                                                body {
-                                                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                                    background:whitesmoke;
-                                                }
-                                                header {
-                                                    background:whitesmoke;
-                                                    overflow:auto;
-                                                }
-                                                #divhead {
-                                                    background:whitesmoke;
-                                                    height:12.5px;
-                                                    font-size:12px;
-                                                }
-                                                #divider {
-                                                    opacity:-9.6;
-                                                    cursor:default;
-                                                }
-                                                #homecontainer {
-                                                    overflow:auto;
-                                                    padding:0px 250px 0px;
-                                                }
-                                                }
-                                                @media(max-width:1920px) {
-                                                    body {
-                                                        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                                        background:whitesmoke;
-                                                    }
-                                                    header {
-                                                        background:whitesmoke;
-                                                        overflow:auto;
-                                                    }
-                                                    #divhead {
-                                                        background:whitesmoke;
-                                                        height:12.5px;
-                                                        font-size:12px;
-                                                    }
-                                                    #divider {
-                                                        opacity:-9.6;
-                                                        cursor:default;
-                                                    }
-                                                    #homecontainer {
-                                                        overflow:auto;
-                                                        padding:0px 250px 0px;
-                                                    }
-                                                    }
-                                                    @media(max-width:2360px) {
-                                                        body {
-                                                            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                                            background:whitesmoke;
-                                                        }
-                                                        header {
-                                                            background:whitesmoke;
-                                                            overflow:auto;
-                                                        }
-                                                        #divhead {
-                                                            background:whitesmoke;
-                                                            height:12.5px;
-                                                            font-size:12px;
-                                                        }
-                                                        #divider {
-                                                            opacity:-9.6;
-                                                            cursor:default;
-                                                        }
-                                                        #homecontainer {
-                                                            overflow:auto;
-                                                            padding:0px 250px 0px;
-                                                        }
-                                                        }
-                                                        @media(max-width:200px) {
-                                                            body {
-                                                                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                                                background:whitesmoke;
-                                                                opacity:-9.9;
-                                                            }
-                                                            header {
-                                                                background:whitesmoke;
-                                                                overflow:auto;
-                                                                opacity:-9.9;
-                                                            }
-                                                            #divhead {
-                                                                background:whitesmoke;
-                                                                height:12.5px;
-                                                                font-size:12px;
-                                                                opacity:-9.9;
-                                                            }
-                                                            #divider {
-                                                                opacity:-9.9;
-                                                                cursor:default;
-                                                            }
-                                                            #homecontainer {
-                                                                overflow:auto;
-                                                                padding:0px 250px 0px;
-                                                                opacity:-9.9;
-                                                            }
-                                                            #small {
-                                                                background:white;
-                                                                color:black;
-                                                                visibility: visible;
-                                                                text-align:center;
-                                                                font-size:10px;
-                                                            }
-                                                        }
+    #menu {
+        width:20%;
+        overflow:auto;
+        background:black;
+        color:#fff;
+    }
+    header {
+        background:black;
+        color:white;
+    }
+    #divhead {
+        background:black;
+    }
+    #homecontainer img {
+      align-content: space-between;
+    }
+}
