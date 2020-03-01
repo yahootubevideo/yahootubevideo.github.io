@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploading...</title>
+    <link rel='stylesheet' href='style.css'>
+    <script>
+          setTimeout(function(){ document.getElementById('progress').innerText = "1%"; }, 2000);
+          setTimeout(function(){ document.getElementById('bar').value = "1"; }, 2000);
+          setTimeout(function(){ document.getElementById('progress').innerText = "2%"; }, 4000);
+          setTimeout(function(){ document.getElementById('bar').value = "2"; }, 4000);
+          setTimeout(function(){ document.getElementById('progress').innerText = "7%"; }, 8000);
+          setTimeout(function(){ document.getElementById('bar').value = "7"; }, 8000);
+          setTimeout(function(){ document.getElementById('progress').innerText = "25%"; }, 12000);
+          setTimeout(function(){ document.getElementById('bar').value = "25"; }, 12000);
+          setTimeout(function(){ document.getElementById('progress').innerText = "35%"; }, 15000);
+          setTimeout(function(){ document.getElementById('progress').innerText = "50%"; }, 25000);
+          setTimeout(function(){ document.getElementById('bar').value = "50"; }, 25000);
+          setTimeout(function(){ document.getElementById('progress').innerText = "56%"; }, 35000);
+          setTimeout(function(){ document.getElementById('bar').value = "56"; }, 355000);
+          setTimeout(function(){ document.getElementById('progress').innerText = "57%"; }, 36000);
+          setTimeout(function(){ document.getElementById('bar').value = "57"; }, 26000);
+          setTimeout(function(){ document.getElementById('progress').innerText = "100%"; }, 37000);
+          setTimeout(function(){ document.getElementById('bar').value = "100"; }, 37000);
+          setTimeout(function(){ document.getElementById('status').innerHTML = "Uploaded your video!<br><a href='http://video.thepalmerstudio.net/watch/uploadedvideo?id=00000&isthisanactualvideo=no'>Check it out here</a>"; }, 40000);
+    </script>
+    <style>
+        #bar {
+            width:100%;
+            height:60px;
+       background:green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uploading...</h1>
+    <h1>Progress:</h1>
+    <h5 id='progress'>0%</h5>
+    <progress  max='100' value='0' id='bar'></progress>
+    <div></div>
+    <h5 id='status'>Uploading...</h5>
+    <br>
+    <h5>At the moment,this doesn't do anything other than taking you to a page saying that:This feature is coming soon</h5>
+</body>
+</html>

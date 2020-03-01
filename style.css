@@ -17,8 +17,7 @@ header {
     cursor:default;
 }
 #homecontainer {
-    text-align:center;
-    padding-top:0px;
+    padding:0px 150px 0px;
 }
 #small {
    visibility: hidden;
